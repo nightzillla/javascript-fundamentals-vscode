@@ -43,15 +43,21 @@ console.log("This is modifiedCars" + modifiedCars);
 
 
 // Loops through 2 arrays 
-const array1 = [1, 2, 4, 5, 6, 8,9];
-const array2 = [2, 6, 7, 76, 8, 10, 11];
-let totalArray = 0;
-for (let i = 0; i < array1.length; i++){
-    for (let j = 0; j < array2.length; j++){
-        totalArray += array1[i] + array2[j];
-    }
+const oneloop = [1, 2, 4, 5, 6, 8,9];
+const twoloop = [2, 6, 7, 76, 8, 10, 11];
+const threeloop = [2, 6, 7, 76, 8, 10, 11];
+const fourloop = [2, 6, 7, 76, 8, 10, 11];
+
+
+function twoLoops(array1, array2) {
+    let totalArray = 0;
+    for (let i = 0; i < array1.length; i++){
+        for (let j = 0; j < array2.length; j++){
+            totalArray += array1[i] + array2[j];
+        }
+    } return totalArray;
 }
-console.log("You found the total 2 arrays " + totalArray);
+console.log("You found the total 2 arrays " + twoLoops(oneloop, twoloop));
 
 // for Loops Decermenting 
 for (let i = 20; i > 0; i--){
@@ -80,11 +86,15 @@ console.log(sum); // Output: 15
 
 const reverseLoop = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
-console.log(reverseLoop.reverse());
+// console.log(reverseLoop.reverse());
 
-// for (let i = reverseArray.length - 1; i >= 0; i--){
-//     console.log(reverseArray[i]);
+// for (let i = reverseLoop.length - 1; i >= 0; i--){
+//     console.log("This is a resverse Loop " + reverseLoop[i]);
 // }
+function reverseLoop1(rl){
+    return rl.reverse();
+}
+console.log(reverseLoop1(reverseLoop));
 
 // Looping through even numbers
 const evenNumbers = [1,2,3,4,5,6,7,8,9,10]
@@ -96,3 +106,82 @@ for ( let i = 0; i < evenNumbers.length; i++){
         console.log("These are the odd numbers" + evenNumbers[i]);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// array of numbers
+
+// how many times a number is over 50
+// += 
+// -=
+// > over 50
+// >= at least 50 
+// >= greater or equal
+
+
+function over50 (overF) {
+    let numberOver50 = 0;
+    for (let i = 0; i < overF.length; i++ ){
+        if(overF[i] > 50){
+            numberOver50 += 1;
+        }
+    } return numberOver50;
+}
+let steveArray = [14, 15, 0, 444, 225, 62, 11];
+let steveCounter = over50(steveArray);
+console.log(steveCounter);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
