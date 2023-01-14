@@ -51,5 +51,9 @@ for (let i = 0; i < array1.length; i++){
         totalArray += array1[i] + array2[j];
     }
 }
-console.log("You found the total 2 arrays " + totalArray)
+console.log("You found the total 2 arrays " + totalArray);
 
+// for Loops Decermetning 
+for (let i = 20; i > 0; i--){
+    console.log(i);
+}
