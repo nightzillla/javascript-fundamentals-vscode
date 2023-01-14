@@ -40,3 +40,16 @@ const modifiedCars = cars.map(function(car) {
     }
 });
 console.log("This is modifiedCars" + modifiedCars);
+
+
+// Loops through 2 arrays 
+const array1 = [1, 2, 4, 5, 6, 8,9];
+const array2 = [2, 6, 7, 76, 8, 10, 11];
+let totalArray = 0;
+for (let i = 0; i < array1.length; i++){
+    for (let j = 0; j < array2.length; j++){
+        totalArray += array1[i] + array2[j];
+    }
+}
+console.log("You found the total 2 arrays " + totalArray)
+
