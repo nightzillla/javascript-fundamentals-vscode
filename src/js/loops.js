@@ -53,7 +53,16 @@ for (let i = 0; i < array1.length; i++){
 }
 console.log("You found the total 2 arrays " + totalArray);
 
-// for Loops Decermetning 
+// for Loops Decermenting 
 for (let i = 20; i > 0; i--){
     console.log(i);
 }
+
+// reverse array
+const reverseArray = [1,2,3,4,5,6,7,8,9,10]
+
+for (let i = reverseArray -1; i >= 0; i++){
+    console.log(reverseArray[i]);
+}
+// you can use this Array.prototype.reverse()
+console.log(reverseArray.reverse());
