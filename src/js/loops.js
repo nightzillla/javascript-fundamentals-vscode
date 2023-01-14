@@ -61,8 +61,38 @@ for (let i = 20; i > 0; i--){
 // reverse array
 const reverseArray = [1,2,3,4,5,6,7,8,9,10]
 
-for (let i = reverseArray -1; i >= 0; i++){
-    console.log(reverseArray[i]);
+for (let i = reverseArray -1; i >= 0; i--){
+    console.log("this is reverse Array " + reverseArray[i]);
 }
+
 // you can use this Array.prototype.reverse()
-console.log(reverseArray.reverse());
+// console.log(reverseArray.reverse());
+
+// .reduce
+// The Array.prototype.reduce() function is used to reduce an array to a single value by iterating over the elements of the array and applying a callback function to each element. The callback function takes two arguments: an accumulator and the current element. The accumulator is the value that is accumulated during the iteration, and it is initialized with the first element of the array, or with an initial value passed as the second argument to the reduce() function.
+
+// The callback function is called for each element of the array, and the return value of the callback function is assigned to the accumulator. The final value of the accumulator after the last iteration is the return value of the reduce() function.
+
+// Here's an example that demonstrates how to use the reduce() function to sum the elements of an array:
+let numbers = [1, 2, 3, 4, 5];
+let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum); // Output: 15
+
+const reverseLoop = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+console.log(reverseLoop.reverse());
+
+// for (let i = reverseArray.length - 1; i >= 0; i--){
+//     console.log(reverseArray[i]);
+// }
+
+// Looping through even numbers
+const evenNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+for ( let i = 0; i < evenNumbers.length; i++){
+    if( evenNumbers[i] % 2 === 0){ 
+        console.log("These are the even numbers " + evenNumbers[i]);
+    } else {
+        console.log("These are the odd numbers" + evenNumbers[i]);
+    }
+}
