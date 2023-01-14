@@ -1,0 +1,7 @@
+quick notes
+
+<!-- Installing styled-components -->
+npm install --save styled-components
+
+<!-- MAKE SURE YOU IMPORT STYLE FROM REACT! -->
+import styled from 'styled-components';
