@@ -140,7 +140,10 @@ let steveArray = [14, 15, 0, 444, 225, 62, 11];
 let steveCounter = over50(steveArray);
 console.log(steveCounter);
 
-
+function addOne(num1, num2){
+    return 5 + 7;
+}
+console.log(addOne(5,6));
 
 
 

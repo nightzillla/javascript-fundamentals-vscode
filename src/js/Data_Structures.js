@@ -8,3 +8,7 @@
 */
 
 // Palindrome is a word that is spelled the same forward and backwars like bob 
+
+let letters = [];
+let word = "racecar";
+let rword = "";
