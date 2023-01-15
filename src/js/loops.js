@@ -59,13 +59,20 @@ function twoLoops(array1, array2) {
 }
 console.log("You found the total 2 arrays " + twoLoops(oneloop, twoloop));
 
+
 // for Loops Decermenting 
 for (let i = 20; i > 0; i--){
     console.log(i);
 }
 
-// reverse array
-const reverseArray = [1,2,3,4,5,6,7,8,9,10]
+// reversing array
+const reverseArray = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+
+// create a function that reverse array
+
+console.log(reversingNumbers(reverseArray));
+
 
 for (let i = reverseArray -1; i >= 0; i--){
     console.log("this is reverse Array " + reverseArray[i]);
@@ -83,6 +90,9 @@ for (let i = reverseArray -1; i >= 0; i--){
 let numbers = [1, 2, 3, 4, 5];
 let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // Output: 15
+
+
+
 
 const reverseLoop = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
@@ -106,9 +116,6 @@ for ( let i = 0; i < evenNumbers.length; i++){
         console.log("These are the odd numbers" + evenNumbers[i]);
     }
 }
-
-
-
 
 
 
@@ -144,6 +151,9 @@ function addOne(num1, num2){
     return 5 + 7;
 }
 console.log(addOne(5,6));
+
+
+
 
 
 
