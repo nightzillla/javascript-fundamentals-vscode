@@ -65,18 +65,27 @@ for (let i = 20; i > 0; i--){
     console.log(i);
 }
 
-// reversing array
+// reverse array
 const reverseArray = [1,2,3,4,5,6,7,8,9,10,11,12]
+const reverseArray2 = [1,2,3,4,5,6,7,8,9,10,11,12,13]
 
+// create a simplified reverse loop 
+function reverseLoop1(rl){
+    return rl.reverse();
+}
+// create a arrow function 
+const reverseLoopV2 = rlv2 => rlv2.reverse();
+console.log("Reversing array with Arrow function " + reverseLoopV2(reverseArray2));
 
 // create a function that reverse array
-
-console.log(reversingNumbers(reverseArray));
-
-
-for (let i = reverseArray -1; i >= 0; i--){
-    console.log("this is reverse Array " + reverseArray[i]);
+function reversingNumbers(reverseNums){
+    let reversedArr = [];
+    for ( let i = reverseNums.length - 1; i >= 0; i--){
+        reversedArr.push(reverseNums[i])
+    }
+    return reversedArr;
 }
+
 
 // you can use this Array.prototype.reverse()
 // console.log(reverseArray.reverse());
@@ -91,20 +100,6 @@ let numbers = [1, 2, 3, 4, 5];
 let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // Output: 15
 
-
-
-
-const reverseLoop = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-
-// console.log(reverseLoop.reverse());
-
-// for (let i = reverseLoop.length - 1; i >= 0; i--){
-//     console.log("This is a resverse Loop " + reverseLoop[i]);
-// }
-function reverseLoop1(rl){
-    return rl.reverse();
-}
-console.log(reverseLoop1(reverseLoop));
 
 // Looping through even numbers
 const evenNumbers = [1,2,3,4,5,6,7,8,9,10]
