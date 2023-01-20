@@ -78,13 +78,7 @@ const reverseLoopV2 = rlv2 => rlv2.reverse();
 console.log("Reversing array with Arrow function " + reverseLoopV2(reverseArray2));
 
 // create a function that reverse array
-function reversingNumbers(reverseNums){
-    let reversedArr = [];
-    for ( let i = reverseNums.length - 1; i >= 0; i--){
-        reversedArr.push(reverseNums[i])
-    }
-    return reversedArr;
-}
+
 
 
 // you can use this Array.prototype.reverse()
