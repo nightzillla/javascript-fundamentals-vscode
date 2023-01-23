@@ -56,3 +56,14 @@ const getLast = arr => [arr.length - 1];
   }
 
   // Training JS #5: Basic data types--Object
+  // make sure to make it local scope instead of global
+  function animal(obj){
+    var newAnimal = {
+      name: obj.name,
+      legs: obj.legs,
+      color: obj.color
+    };
+  
+  
+  return "This " + newAnimal.color + " " + newAnimal.name + " has " + newAnimal.legs + " legs.";
+  }
