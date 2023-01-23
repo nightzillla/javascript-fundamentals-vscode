@@ -67,3 +67,7 @@ const getLast = arr => [arr.length - 1];
   
   return "This " + newAnimal.color + " " + newAnimal.name + " has " + newAnimal.legs + " legs.";
   }
+
+  // function animal(obj){
+  //   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+  // }
