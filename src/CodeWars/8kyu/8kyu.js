@@ -25,18 +25,24 @@ const answer2 = () => "no"
 const answer3 = () => "yes"
 
 // Training JS #4: Basic data types--Array
-function getLength(arr){
-    //return length of arr
-    return arr.length;
-  }
-  function getFirst(arr){
-    //return the first element of arr
-    return arr[0];
-  }
-  function getLast(arr){
-    //return the last element of arr
-    return arr[arr.length -1];
-  }
+// function getLength(arr){
+//     //return length of arr
+//     return arr.length;
+//   }
+const getLength = arr => arr.length;
+
+//   function getFirst(arr){
+//     //return the first element of arr
+//     return arr[0];
+//   }
+const getFirst = arr => arr[0];
+
+//   function getLast(arr){
+//     //return the last element of arr
+//     return arr[arr.length -1];
+//   }
+const getLast = arr => [arr.length - 1];
+
   function pushElement(arr){
     var el=1;
     //push el to arr
@@ -48,3 +54,5 @@ function getLength(arr){
     arr.pop();
     return arr;
   }
+
+  // Training JS #5: Basic data types--Object
