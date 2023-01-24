@@ -73,3 +73,7 @@ const getLast = arr => [arr.length - 1];
   // }
 
   // Training JS #6: Basic data types--Boolean and conditional statements if..else
+  function trueOrFalse(val){
+  if (val)    {return 'true';}           
+  else      {return "false";}
+}
