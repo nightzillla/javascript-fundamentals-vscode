@@ -1,0 +1,2 @@
+AJAX stands for 
+Asynchronous Javascript and XML
