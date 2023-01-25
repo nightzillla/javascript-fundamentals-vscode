@@ -17,14 +17,28 @@ let rword = "";
 for (let i = 0; i < word.length; i++ ){
     letters.push(word[i]);
 }
-
 // pop off the stack in reverse order 
 for (let i = 0; i < word.length; i++){
     rword += letters.pop();
 }
 
-if ( rword === word){
-    console.log(word + " is a palindrome.");
-} else {
-    console.log(word + "is not a palindrome.")
-}
+// if ( rword === word){
+//     console.log(word + " is a palindrome.");
+// } else {
+//     console.log(word + "is not a palindrome.")
+// }
+
+// Create a function that returns a Palindrome
+// function isPalindrome(str) {
+//     // remove non-alphanumeric characters and convert to lowercase
+//     str = str.replace(/[^a-z0-9]/gi,'').toLowerCase();
+//     // reverse the string
+//     var reversed = str.split('').reverse().join('');
+//     // check if the reversed string is equal to the original string
+//     return str === reversed;
+//   }
+//   console.log (isPalindrome("racecar"));
+
+  function isPalindrome(str){
+
+  }
