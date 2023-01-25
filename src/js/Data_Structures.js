@@ -39,6 +39,17 @@ for (let i = 0; i < word.length; i++){
 //   }
 //   console.log (isPalindrome("racecar"));
 
-  function isPalindrome(str){
+// First you create a Function 
+// you want it to accept a string
+function isPalindrome(str){
+    // you want to code str = str.replace because 
+    // .replace() method returns a new string with one, some, or all matches of a pattern replaced by a replacement
+    str = str.replace().toLowerCase();
 
-  }
+    // create a variable that you want it to reverse 
+    // The split() method splits a string into an array of substrings. The split() method returns the new array
+    var reversed = str.split('').reverse().join('');
+
+    return str === reversed;
+}
+console.log(isPalindrome("racecar"));
