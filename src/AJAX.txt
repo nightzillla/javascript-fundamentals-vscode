@@ -1,2 +1,7 @@
-AJAX stands for 
-Asynchronous Javascript and XML
+AJAX stands for - Asynchronous Javascript and XML
+
+AJAX uses Javascript to send and receive data without a page refresh
+
+AJAX is technology, it's not a programming language 
+
+AJAX only works in the sever, you need to have your website running on a server for it to work. 
