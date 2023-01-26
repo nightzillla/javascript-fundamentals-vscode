@@ -42,7 +42,7 @@ for (let i = 0; i < word.length; i++){
 // First you create a Function 
 // you want it to accept a string
 function isPalindrome(str){
-    // you want to code str = str.replace because 
+    // 1st start .replace().toLowerCase();
     // .replace() method returns a new string with one, some, or all matches of a pattern replaced by a replacement
     str = str.replace().toLowerCase();
 
@@ -53,3 +53,24 @@ function isPalindrome(str){
     return str === reversed;
 }
 console.log(isPalindrome("racecar"));
+
+
+function isPalindrome2(str2){
+    str2 = str2.replace().toLowerCase();
+    let reverse = str2.split('').reverse().join('');
+    return str2 === reverse;
+}
+console.log (isPalindrome2("racecar"));
+
+
+
+
+
+
+function isPalindrome3(str3){
+    str3 = str3.replace().toLowerCase('');
+    let reverse = str3.split(" ").reverse("").join("");
+
+    return str3 === reverse;
+}
+console.log(isPalindrome3("racecar"));
