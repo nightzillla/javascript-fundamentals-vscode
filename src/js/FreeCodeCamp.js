@@ -72,15 +72,15 @@ const difference = 45 - 33;
 
 /** Multiply Two Numbers with JavaScript */
 // Change the 0 so that product will equal 80.
-const product = 8 * 10;
+const product1 = 8 * 10;
 
 /** Divide One Number by Another with JavaScript */
 // Change the 0 so that the quotient is equal to 2.
-const quotient = 66 / 33;
+const quotient1 = 66 / 33;
 
 /** Increment a Number with JavaScript */
 // Change the code to use the ++ operator on myVar.
-let myVar = 87;
+let myVar1 = 87;
 
 // Only change code below this line
 myVar = ++myVar;
@@ -156,18 +156,18 @@ c /= 11;
 
 /** Escaping Literal Quotes in Strings */
 // Use backslashes to assign a string to the myStr variable so that if you were to print it to the console, you would see:
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+const myStr7 = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
 
 /** Quoting Strings with Single Quotes */
 // Change the provided string to a string with single quotes at the beginning and end and no escape characters.
-const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+const myStr4 = '<a href="http://www.example.com" target="_blank">Link</a>';
 
 /** Basic JavaScript: Escape Sequences in Strings | freeCodeCamp.org */
-const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+const myStr5 = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 
 /** Concatenating Strings with Plus Operator */
 // Build myStr from the strings This is the start. and This is the end. using the + operator. Be sure to include a space between the two strings.
-const myStr = "This is the start." + " This is the end."; // Change this line
+const myStr6 = "This is the start." + " This is the end."; // Change this line
 
 /** Concatenating Strings with the Plus Equals Operator */
 // Build myStr over several lines by concatenating these two strings: This is the first sentence. and This is the second sentence. using the += operator. Use the += operator similar to how it is shown in the example and be sure to include a space between the two strings. Start by assigning the first string to myStr, then add on the second string.
@@ -179,20 +179,20 @@ myStr += "This is the second sentence.";
 // Set myName to a string equal to your name and build myStr with myName between the strings My name is and and I am well!
 // Only change code below this line
 const myName = "Danny";
-const myStr = "My name is" + myName + "and I am well!";
+const myStr3 = "My name is" + myName + "and I am well!";
 
 /** Appending Variables to Strings */
 // Set someAdjective to a string of at least 3 characters and append it to myStr using the += operator.
 // Change code below this line
 const someAdjective = "awesome!";
-let myStr = "freeCodecamp is ";
+let myStr2 = "freeCodecamp is ";
 myStr += someAdjective;
 
 /** Find the Length of a String */
 // Use the .length property to set lastNameLength to the number of characters in lastName.
 // Setup
 let lastNameLength = 0;
-const lastName = "Lovelace";
+const lastName2 = "Lovelace";
 
 // Only change code below this line
 lastNameLength = lastName.length;
@@ -201,7 +201,7 @@ lastNameLength = lastName.length;
 // Use bracket notation to find the first character in the lastName variable and assign it to firstLetterOfLastName.
 // Setup
 let firstLetterOfLastName = "";
-const lastName = "Lovelace";
+const lastName1 = "Lovelace";
 
 // Only change code below this line
 firstLetterOfLastName = lastName[0]; // Change this line
@@ -209,7 +209,7 @@ firstLetterOfLastName = lastName[0]; // Change this line
 /** Understand String Immutability */
 // Correct the assignment to myStr so it contains the string value of Hello World using the approach shown in the example above.
 // Setup
-let myStr = "Jello World";
+let myStr1 = "Jello World";
 
 // Only change code below this line
 myStr = "Hello World"; // Change this line
@@ -218,7 +218,7 @@ myStr = "Hello World"; // Change this line
 /** Use Bracket Notation to Find the Nth Character in a String */
 // Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
 // Setup
-const lastName = "Lovelace";
+const lastName8 = "Lovelace";
 
 // Only change code below this line
 const thirdLetterOfLastName = lastName[2]; // Change this line
@@ -226,7 +226,7 @@ const thirdLetterOfLastName = lastName[2]; // Change this line
 /** Use Bracket Notation to Find the Last Character in a String */
 // Use bracket notation to find the last character in the lastName variable.
 // Setup
-const lastName = "Lovelace";
+const lastName9 = "Lovelace";
 
 // Only change code below this line
 const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line

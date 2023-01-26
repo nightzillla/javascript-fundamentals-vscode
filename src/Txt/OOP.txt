@@ -1,0 +1,9 @@
+OOP stands for Object-Oriented Programming
+- is a programming language model for software design.
+- revolves around objects or data instead of logic and functions.
+* It focuses on what developers want to manipulate rather than how they want to manipulate them.
+OOP has 4 main principles IPEA
+Inheritance
+Polymorphism 
+Encapsulation
+Abstraction
