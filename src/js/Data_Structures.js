@@ -63,14 +63,17 @@ function isPalindrome2(str2){
 console.log (isPalindrome2("racecar"));
 
 
-
-
-
-
+// More in depth of Palindrome 
+// step 1 Created a function 
 function isPalindrome3(str3){
-    str3 = str3.replace().toLowerCase('');
-    let reverse = str3.split(" ").reverse("").join("");
-
-    return str3 === reverse;
+// step 2 use .replace() method to find and replace all matches of a specified value with a new value. In this case, it is used to remove any spaces in the input string.
+// toLowerCase() method to convert the entire string to lowercase. This ensures that the comparison of the string and its reverse will be case-insensitive.
+str3 = str3.replace().toLowerCase();
+//step 3 The third line declares a variable "reverse" and assigns to it the result of splitting the input string into an array of characters, reversing the order of the characters, and then joining them back together into a single string. The split() method is used to convert the string into an array of characters, while the reverse() method is used to reverse the order of the characters. The join() method is used to join the characters back together into a single string.
+let reverse3 = str3.split('').reverse('').join('');
+// returns a comparison of the original input string and the reversed string using the strict equality operator ===. If the two strings are identical, then the function returns true, indicating that the input string is a palindrome. If the two strings are not identical, then the function returns false, indicating that the input string is not a palindrome.
+return str3 === reverse3;
 }
+
 console.log(isPalindrome3("racecar"));
+// The last line uses the console.log() method to output the result of calling the function with the input string "racecar". Since "racecar" is a palindrome, the function returns true, which is logged to the console.
