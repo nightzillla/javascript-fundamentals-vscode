@@ -17,3 +17,14 @@ async function fetchData() {
     const result = await fetchData();
     console.log(result)
 })();
+
+
+// fetch ('https://api.chucknorris.io/jokes/random?category={category}')
+// .then(response => response.json())
+// .then(data => {
+//     console.log(data);
+//     // do something with data 
+// })
+// .catch(error => {
+//     console.error('Error fetching data:', error);
+// });
