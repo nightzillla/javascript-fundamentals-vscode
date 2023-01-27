@@ -12,7 +12,4 @@ function findingEvenAndOdds(numbers){
 
 console.log(findingEvenAndOdds(oddNumbers));
 
-// function reverseArray(reverseArray){
-//     return reverseArray.reverse();
-// }
-// console.log(reverseArray(oddNumbers));
+// Create a function to reverse the order
