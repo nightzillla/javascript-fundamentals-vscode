@@ -49,3 +49,12 @@ const x = {
     firstName: "John",
     lastName: "Doe"
 };                        // Object
+
+/**
+ *! Arrays are extremely versatile data structures, used all the time, and so there are many functioons that can handle them to do useful things.
+ */
+// spread syntax
+// The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.
+let array1 = ['h', 'e', 'l', 'l', 'o'];
+let array2 = [...array1];
+console.log(array2);

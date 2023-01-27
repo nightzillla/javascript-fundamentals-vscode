@@ -86,4 +86,28 @@ function isPalindrome4(str4){
     
 }
 console.log(isPalindrome4("racecar"));
-// Palindrome with a loop 
+// Palindrome with a loop example
+// let letters2 = [];
+// let word2 = "racecar";
+// let rword2 = "";
+
+// // put letters of word into stack
+// for (let i = 0; i < word.length; i++ ){
+//     letters.push(word[i]);
+// }
+// // pop off the stack in reverse order 
+// for (let i = 0; i < word.length; i++){
+//     rword += letters.pop();
+// }
+
+// Step 1 create a variable of an array;
+let letters2 = [];
+// Step 2 create a variable of the string "racecar";
+let word2 = "racecar";
+// Step 3 create a varaible of an empty string;
+let reverseWord = "";
+// Step 4 create a for loop
+for (let i = 0; i < word2.length; i++){
+// Step 5  add .push()
+    letters2.push(word2[i]);
+}
