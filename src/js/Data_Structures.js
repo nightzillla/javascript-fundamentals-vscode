@@ -123,3 +123,12 @@ for (let i = 0; i < word2.length; i++){
 // Step 5  add .push()
     letters2.push(word2[i]);
 }
+
+
+function findPalindrome(str5){
+    str5 = str5.replace().toLowerCase();
+    let reverseWord = str5.split('').reverse('').join('');
+    return str5 === reverseWord;
+}
+
+console.log(findPalindrome("racecar"));

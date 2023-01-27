@@ -115,14 +115,6 @@ for ( let i = 0; i < evenNumbers.length; i++){
     }
 }
 
-
-
-
-
-
-
-
-
 // array of numbers
 
 // how many times a number is over 50
