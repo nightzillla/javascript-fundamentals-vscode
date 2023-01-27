@@ -77,10 +77,7 @@ return str3 === reverse3;
 
 console.log(isPalindrome3("racecar"));
 // The last line uses the console.log() method to output the result of calling the function with the input string "racecar". Since "racecar" is a palindrome, the function returns true, which is logged to the console.
-
-
-
-
+// 4th attempt
 function isPalindrome4(str4){
     str4 = str4.replace().toLowerCase();
     let reversestr4 = str4.split("").reverse("").join("")
@@ -89,3 +86,4 @@ function isPalindrome4(str4){
     
 }
 console.log(isPalindrome4("racecar"));
+// Palindrome with a loop 
