@@ -86,6 +86,18 @@ function isPalindrome4(str4){
     
 }
 console.log(isPalindrome4("racecar"));
+
+// Palindrome 5th example
+
+function isPalindrome5(str5){
+    str5 = str5.replace().toLowerCase();
+    let reverseStr5 = str5.split('').reverse('').join('');
+
+    return str5 === reverseStr5
+}
+
+console.log(isPalindrome5("racecar"));
+
 // Palindrome with a loop example
 // let letters2 = [];
 // let word2 = "racecar";

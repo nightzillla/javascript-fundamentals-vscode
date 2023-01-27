@@ -126,6 +126,24 @@ for ( let i = 0; i < evenNumbers.length; i++){
 // array of numbers
 
 // how many times a number is over 50
+
+let over40 = [40, 41,42,43,44,45]
+
+function overFourty(over40s){
+    let over4 = 0
+    for( let i = 0; i < over40s.length; i ++){
+        if (over40s[i] > 40);
+            over4 += 1;
+    }
+    return over4;
+}
+console.log("over 40 " + overFourty(over40));
+
+
+
+
+
+
 // += 
 // -=
 // > over 50
