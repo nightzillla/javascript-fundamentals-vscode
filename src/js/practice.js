@@ -19,3 +19,8 @@ function reverseArray(arr){
 }
 console.log(reverseArray(arrays));
 
+function addingTwoLoops(loop1, loop2){
+    for ( let i = 0; i < loop1.length; i++){
+        
+    }
+}
