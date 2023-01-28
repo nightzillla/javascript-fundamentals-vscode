@@ -41,13 +41,16 @@ const usersNames = users.map((user) => user.name);
 //         console.log(users[i].isActive + "This user is not active")
 //     }
 // }
-const usersNamesEx2 = [];
-for (let i = 0; i < users.length; i++){
-    if( users[i].isActive){
-        usersNamesEx2.push(users[i].name)
-    }
-}
-console.log(usersNamesEx2)
+
+
+
+// const usersNamesEx2 = [];
+// for (let i = 0; i < users.length; i++){
+//     if( users[i].isActive){
+//         usersNamesEx2.push(users[i].name)
+//     }
+// }
+// console.log(usersNamesEx2)
 
 // using .filter & .map
 const usersNamesFilter = users.filter((users) => users.isActive).map((users) => users.name);
