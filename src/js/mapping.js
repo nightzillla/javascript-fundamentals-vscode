@@ -16,12 +16,16 @@
         isActive: false,
     },
  ]
+
+// Using .map
+const usersNames = users.map((user) => user.name);
+
 // Using forEach
 // users.forEach(callback)
-const usersNames = [];
-users.forEach(users => {
-   usersNames.push(users.name);
-})
+// const usersNames = [];
+// users.forEach(users => {
+//    usersNames.push(users.name);
+// })
 
 // First start off with for loop
 // const usersNames = [];
