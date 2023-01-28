@@ -1,4 +1,3 @@
-// Write a code to get array of names from given array of users
  const users = [
     {
         id: 1,
@@ -16,7 +15,7 @@
         isActive: false,
     },
  ]
-
+// 1. Write a code to get array of names from given array of users
 // Using .map
 const usersNames = users.map((user) => user.name);
 
@@ -32,4 +31,20 @@ const usersNames = users.map((user) => user.name);
 // for ( let i = 0; i < users.length; i++){
 //     usersNames.push(users[i].name);
 // }
-console.log (usersNames);
+// console.log (usersNames);
+
+// 2. Get back only active users
+// for ( let i = 0; i < users.length; i++){
+//     if(users[i].isActive === "true"){
+//         console.log(users[i].isActive + "This user is active")
+//     } else {
+//         console.log(users[i].isActive + "This user is not active")
+//     }
+// }
+const usersNamesEx2 = [];
+for (let i = 0; i < users.length; i++){
+    if( users[i].isActive){
+        usersNamesEx2.push(users[i].name)
+    }
+}
+console.log(usersNamesEx2)
