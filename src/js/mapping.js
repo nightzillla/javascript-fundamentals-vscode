@@ -16,10 +16,16 @@
         isActive: false,
     },
  ]
- 
-// First start off with for loop
+// Using forEach
+// users.forEach(callback)
 const usersNames = [];
-for ( let i = 0; i < users.length; i++){
-    usersNames.push(users[i].name);
-}
+users.forEach(users => {
+   usersNames.push(users.name);
+})
+
+// First start off with for loop
+// const usersNames = [];
+// for ( let i = 0; i < users.length; i++){
+//     usersNames.push(users[i].name);
+// }
 console.log (usersNames);
