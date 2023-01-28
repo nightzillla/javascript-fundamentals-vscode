@@ -49,6 +49,15 @@ const threeloop = [2, 6, 7, 76, 8, 10, 11];
 const fourloop = [2, 6, 7, 76, 8, 10, 11];
 
 
+// function twoLoops(array1, array2) {
+//     let totalArray = 0;
+//     for (let i = 0; i < array1.length; i++){
+//         for (let j = 0; j < array2.length; j++){
+//             totalArray += array1[i] + array2[j];
+//         }
+//     } return totalArray;
+// }
+
 function twoLoops(array1, array2) {
     let totalArray = 0;
     for (let i = 0; i < array1.length; i++){
