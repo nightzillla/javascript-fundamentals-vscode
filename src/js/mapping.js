@@ -41,7 +41,12 @@ const usersNames = users.map((user) => user.name);
 //         console.log(users[i].isActive + "This user is not active")
 //     }
 // }
-
+const findingIsActive = [];
+for (let i = 0; i < users.length; i++){
+    if (users[i].isActive){
+        findingIsActive.push(users[i].name);
+    }
+}
 
 
 // const usersNamesEx2 = [];
