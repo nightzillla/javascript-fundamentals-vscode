@@ -48,3 +48,11 @@ for (let i = 0; i < users.length; i++){
     }
 }
 console.log(usersNamesEx2)
+
+// using .filter & .map
+const usersNamesFilter = users.filter((users) => users.isActive).map((users) => users.name);
+
+console.log(usersNamesFilter);
+
+// const userNameFilter = users.filter((users) => users.isActive).map((users) => users.name);
+// console.log(userNameFilter);
