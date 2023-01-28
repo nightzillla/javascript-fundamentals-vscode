@@ -16,4 +16,10 @@
         isActive: false,
     },
  ]
-
+ 
+// First start off with for loop
+const usersNames = [];
+for ( let i = 0; i < users.length; i++){
+    usersNames.push(users[i].name);
+}
+console.log (usersNames);
