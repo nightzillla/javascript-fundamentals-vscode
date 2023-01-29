@@ -157,14 +157,22 @@ console.log(isPalindrome1("racecar"));
 
 function checkPalidrome(strings){
     let letters = [];
+/**
+*! []; This declares an array called `letters` to store the characters of the input string */
     let reverseWord = "";
+/**
+*! []; This declares a variable `reverseWord` that will later be used to store the reverse of the input string. */
     // .push
     for (let i = 0; i < strings.length; i++){
         letters.push(strings[i]);
+/**
+*! []; In each iteration of the loop, the character at index `i` of `strings` is pushed onto the end of the `letters` array. */
     }
     // .pop
     for (let i = 0; i < strings.length; i++){
         reverseWord += letters.pop();
+/**
+*! []; In each iteration of the loop, the last character in the `letters` array is popped off and added to the end of `reverseWord` */
     }
 
     if ( reverseWord === strings){
