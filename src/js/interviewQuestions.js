@@ -99,13 +99,29 @@ const multiply = (num1) => (num2) => num1 * num2
 // const curriedSum = curry((a, b, c) => a + b + c)
 const curry = function (fn){
     var arity = fn.length;
-    console.log("arity", arity);
+    // console.log("arity", arity);
     return function f1(...args){
-    console.log("f1", args);
+        if (args.length >= arity){
+            // console.log("enough arguments");
+            return fn(...args);
+        } else {
+            // console.log("need more arguments")
+            return function f2(...morArgs){
+                var newArgs = args.concat(morArgs)
+                return f1(...newArgs);
+            };
+        }
+    // console.log("f1", args);
     };
 };
 const curriedSum = curry((a, b, c) => a + b + c);
-curriedSum(1, 2, 3);
+const partialCurriedSum = curriedSum(1);
+console.log(partialCurriedSum(2, 3));
+
+const get = curry((property, object) => object[property]);
+const getId = get("id");
+const map = curry((fn, values) => values.map(fn));
+const getIds = map(getId);
 
 // function sayHello (){
 //     return "Hi"
