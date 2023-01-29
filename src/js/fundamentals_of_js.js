@@ -64,3 +64,11 @@ const x = {
 let array1 = ['h', 'e', 'l', 'l', 'o'];
 let array2 = [...array1];
 console.log(array2);
+/**
+** .push
+* TODO: Basic .push */
+
+const numbers = [1 ,2 ,3];
+const total = numbers.push(4,5,6,7,8,9);
+// const total = numbers.push(4,5,6,7,8);
+console.log(numbers);

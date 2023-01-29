@@ -182,4 +182,12 @@ function checkPalidrome(strings){
     }
 }
 console.log(checkPalidrome("racecar"));
+/**
+** Array
+* TODO: Write a function which get's an array and an element and returns a array with this element at the end */
+
+const append = (arr, el) => {
+    arr.push(el);
+    return arr;
+};
 
