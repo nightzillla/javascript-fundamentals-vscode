@@ -155,6 +155,23 @@ console.log(isPalindrome1("racecar"));
  ** Loops 
 * TODO: Write a function in a for Loop that will be used for palindrome */
 
+function checkPalidrome(strings){
+    let letters = [];
+    let reverseWord = "";
+    // .push
+    for (let i = 0; i < strings.length; i++){
+        letters.push(strings[i]);
+    }
+    // .pop
+    for (let i = 0; i < strings.length; i++){
+        reverseWord += letters.pop();
+    }
 
-
+    if ( reverseWord === strings){
+        return strings + "is a palindrome."
+    } else {
+        return strings + "is not a palindrome"
+    }
+}
+console.log(checkPalidrome("racecar"));
 
