@@ -150,3 +150,11 @@ function isPalindrome1(words){
 }
 
 console.log(isPalindrome1("racecar"));
+
+/**
+ ** Loops 
+* TODO: Write a function in a for Loop that will be used for palindrome */
+
+
+
+
