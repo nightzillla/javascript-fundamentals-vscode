@@ -15,7 +15,9 @@
         isActive: false,
     },
  ]
-// 1. Write a code to get array of names from given array of users
+ /**
+ * TODO: 1. Write a code to get array of names from given array of users
+*/
 // Using .map
 const usersNames = users.map((user) => user.name);
 
@@ -33,7 +35,10 @@ const usersNames = users.map((user) => user.name);
 // }
 // console.log (usersNames);
 
-// 2. Get back only active users
+/**
+ * TODO: 2. Get back only active users
+ */
+// for Loop
 // for ( let i = 0; i < users.length; i++){
 //     if(users[i].isActive === "true"){
 //         console.log(users[i].isActive + "This user is active")
@@ -48,7 +53,6 @@ for (let i = 0; i < users.length; i++){
     }
 }
 
-
 // const usersNamesEx2 = [];
 // for (let i = 0; i < users.length; i++){
 //     if( users[i].isActive){
@@ -58,9 +62,6 @@ for (let i = 0; i < users.length; i++){
 // console.log(usersNamesEx2)
 
 // using .filter & .map
-const usersNamesFilter = users.filter((users) => users.isActive).map((users) => users.name);
+const filterNames = users.filter((users) => users.isActive).map((users) => users.name);
 
-console.log(usersNamesFilter);
-
-// const userNameFilter = users.filter((users) => users.isActive).map((users) => users.name);
-// console.log(userNameFilter);
+console.log(filterNames);
