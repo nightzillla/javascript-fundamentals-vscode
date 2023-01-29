@@ -131,3 +131,14 @@ const getIds = map(getId);
 /**
  ** Loops 
 * TODO: Write a function that will reverse the array given */
+
+const arrayLoop1 = [10,9,8,7,6,5,4,3,2,1]
+
+function reverseArray(array1) {
+    return array1.reverse();
+}
+
+console.log(reverseArray(arrayLoop1));
+/**
+ ** Loops 
+* TODO: Write a function that will be used for palindrome */
