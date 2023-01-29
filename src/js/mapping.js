@@ -21,7 +21,8 @@
 // Using .map
 const usersNames = users.map((user) => user.name);
 
-// Using forEach
+/** 
+ ** Using forEach */
 // users.forEach(callback)
 // const usersNames = [];
 // users.forEach(users => {
@@ -36,9 +37,10 @@ const usersNames = users.map((user) => user.name);
 // console.log (usersNames);
 
 /**
- * TODO: 2. Get back only active users
- */
-// for Loop
+ * TODO: 2. Get back only active users */
+/**
+ ** for Loop
+*/
 // for ( let i = 0; i < users.length; i++){
 //     if(users[i].isActive === "true"){
 //         console.log(users[i].isActive + "This user is active")
@@ -61,7 +63,9 @@ for (let i = 0; i < users.length; i++){
 // }
 // console.log(usersNamesEx2)
 
-// using .filter & .map
+/**
+ ** using .filter & .map
+*/
 const filterNames = users.filter((users) => users.isActive).map((users) => users.name);
 
 console.log(filterNames);
