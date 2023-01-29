@@ -127,3 +127,7 @@ const getIds = map(getId);
 //     return "Hi"
 // }
 // console.log(sayHello())
+
+/**
+ ** Loops 
+* TODO: Write a function that will reverse the array given */
