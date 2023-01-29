@@ -3,16 +3,19 @@
         id: 1,
         name: "Jack",
         isActive: true,
+        age: 20,
     },
     {
         id:2,
         name: "John",
         isActive: true,
+        age: 18,
     },
     {
         id:3,
         name: "Mike",
         isActive: false,
+        age: 30,
     },
  ]
  /**
@@ -69,3 +72,11 @@ for (let i = 0; i < users.length; i++){
 const filterNames = users.filter((users) => users.isActive).map((users) => users.name);
 
 console.log(filterNames);
+
+/**
+ * TODO: 3. Sort users by age descending */
+
+const names = users
+    .sort((user1, user2) => (user1.age < user2.age ? 1 : -1))
+    .filter((user) => user.isActive)
+    .map((user) => user.name);
