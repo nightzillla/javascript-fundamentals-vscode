@@ -2,7 +2,7 @@
 function helloWorld (){
     return "Hello World!"
   }
-  console.log(helloWorld);
+  console.log(helloWorld());
 
 // Training JS #2: Basic data types--Number
 var v1=50;v2=100,v3=150,v4=200,v5=2,v6=250
