@@ -3,7 +3,11 @@ OOP stands for Object-Oriented Programming
 - revolves around objects or data instead of logic and functions.
 * It focuses on what developers want to manipulate rather than how they want to manipulate them.
 OOP has 4 main principles IPEA
-Inheritance
+Inheritance - 
+To inherit from a class, use the extends keyword.
+* subclass (child) - the class that inherits from another class
+* superclass (parent) - the class being inherited from
+
 Polymorphism 
 Encapsulation
 
