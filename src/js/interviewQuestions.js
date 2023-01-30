@@ -241,3 +241,20 @@ const append = (arr, el) => {
     return arr;
 };
 
+function palindromeForLoop (strs){
+    let letters = [];
+    let reverseStrs = "";
+
+    for ( let i = 0; i < strs.length; i++){
+        letters.push(strs[i]);
+    }
+    for ( let i = 0; i < strs.length; i++){
+        reverseStrs += letters.pop();
+    }
+    if(reverseStrs === strs){
+        return strs + ("This is a palindrome")
+    } else {
+        return strs + ("This is not a palindrome");
+    }
+}
+console.log(palindromeForLoop("racecar"));
