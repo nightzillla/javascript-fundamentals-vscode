@@ -155,6 +155,56 @@ console.log(isPalindrome1("racecar"));
  ** Loops 
 * TODO: Write a function in a for Loop that will be used for palindrome */
 
+
+// function isItPalindrome(str){
+//     let someStrings = [];
+//     let reverseStrings = "";
+
+//     for ( let i = 0; i < str.length; i++){
+//         someStrings.push(str[i]);
+//     }
+
+//     for ( let i = 0; i < str.length; i++){
+//         reverseStrings += someStrings.pop();
+//     }
+
+//     if( reverseStrings === str){
+//         console.log("This is a palindrome")
+//     } else {
+//         console.log("This is not a palindrome")
+//     }
+// } 
+// console.log(isItPalindrome("racecar"));
+
+
+
+function isItPalindrome(str) {
+    str = str.replace().toLowerCase();
+    let reverseStr = str.split('').reverse('').join('');
+    return reverseStr;
+}
+console.log("Palindrome in a function " + isItPalindrome ("racecar"));
+
+function forLoopForPalindrome(string){
+    let letter = [];
+    let reverseStrings = "";
+
+    for (let i = 0; i < string.length; i++){
+        letter.push(string[i]);
+    }
+    for ( let i = 0; i < string.length; i++){
+        reverseStrings += letter.pop();
+    }
+
+    if ( reverseStrings === string){
+        return string + (" This is a palindrome")
+    } else {
+        return string + (" This is not a palindrome")
+    }
+}
+console.log(" function using for Loop " + forLoopForPalindrome("racecar"))
+
+
 function checkPalidrome(strings){
     let letters = [];
 /**
