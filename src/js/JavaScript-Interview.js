@@ -1,0 +1,1 @@
+// What are the different data types present in javascript?

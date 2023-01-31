@@ -258,3 +258,9 @@ function palindromeForLoop (strs){
     }
 }
 console.log(palindromeForLoop("racecar"));
+
+
+// function reverseLoop(arr){
+//     return arr.reverse;
+// }
+// console.log(reverseArray(array));
