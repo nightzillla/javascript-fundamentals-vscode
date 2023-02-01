@@ -1,4 +1,8 @@
 /**
+ ** Why do you put the script tag in the bottom?
+  *! You want your HTML & CSS to load first
+*/
+/**
  ** What are the different data types present in javascript?
 */
 /**
