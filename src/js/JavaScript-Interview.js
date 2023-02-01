@@ -2,7 +2,7 @@
  ** What are the different data types present in javascript?
 */
 /**
- *! Primitive types
+ *! Primitive types = data is directly assigned to memory
  /**
  ** String - It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote. 
 
@@ -26,6 +26,10 @@
 /**
  *! Non-primitive types
     ** Primitive data types can store only a single value. To store multiple and complex values, non-primitive data types are used. 
-    
+
     ** Object - Used to store collection of data.
+ */
+/**
+ *! API
+    ** Application Programming Interfaces (APIs) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.
  */
