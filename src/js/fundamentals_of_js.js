@@ -72,3 +72,13 @@ const numbers = [1 ,2 ,3];
 const total = numbers.push(4,5,6,7,8,9);
 // const total = numbers.push(4,5,6,7,8);
 console.log(numbers);
+
+/**
+ ** Arrays = variables that hold multiple values 
+*/
+const fruits = [ 'apples', 'oranges', 'pears']
+// . push adds it to the end of the array
+fruits.push('mangos');
+// .unshift adds to front of the array
+fruits.unshift('strawberries');
+console.log(fruits);
