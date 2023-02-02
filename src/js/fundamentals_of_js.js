@@ -81,4 +81,51 @@ const fruits = [ 'apples', 'oranges', 'pears']
 fruits.push('mangos');
 // .unshift adds to front of the array
 fruits.unshift('strawberries');
-console.log(fruits);
+// .pop takes the last item out of the array
+fruits.pop();
+// check to see if its an Array
+// console.log(Array.isArray(fruits));
+console.log(fruits); 
+
+/**
+ ** JSON with for Loop
+ *! Sending Data to a string
+*/
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2, 
+        text: 'Meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3, 
+        text: 'Dentist appt',
+        isCompleted: false
+    }
+];
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
+// For Loop
+for ( let i = 0; i <= 10; i++){
+    console.log(`For Loop Number: ${i}`)
+}
+// For Loop through Array
+for ( let i = 0; i < todos.length; i++){
+    console.log(todos[i].text);
+}
+// Simplified For Loop
+for ( let todo of todos){
+    console.log(todo.id);
+}
+
+// While
+let i = 0; 
+while(i < 10){
+    console.log(`While Loop Number: ${i}`)
+    i++;
+}
