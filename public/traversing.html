@@ -30,18 +30,18 @@
                 background-color: hsl(200, 50%, 50%);
             }
         </style>
-        <script>src="js/traversing.js"</script>
     </head>
     <body>
-        <div class="grandparent">
+        <div class="grandparent" id="grandparent-id">
             <div class="parent">
                 <div class="child"></div>
                 <div class="child"></div>
-            </div>
+            </div> <!-- END OF PARENT-->
             <div class="parent">
                 <div class="child"></div>
                 <div class="child"></div>
-            </div>  
-        </div>
+            </div>  <!-- END OF PARENT-->
+        </div><!-- END OF GRANDPARENT-->
     </body>
+    <script>src="traversing.js"</script>
 </html>
