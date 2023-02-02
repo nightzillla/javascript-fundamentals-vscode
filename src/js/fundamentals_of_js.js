@@ -129,3 +129,22 @@ while(i < 10){
     console.log(`While Loop Number: ${i}`)
     i++;
 }
+/**
+  *! High order Array
+*/
+// forEach 
+// todo.forEach(function(todo){
+//     console.log(todo.text)
+// });
+// .map
+const todoText = todos.map(function(todo){
+    return todo.text;
+});
+console.log(todoText);
+// filter 
+const todoCompleted = todos.filter(function(todo){
+    return todo.isCompleted === true;
+}).map(function(todo){
+    return todo.text;
+})
+console.log(todoCompleted);
