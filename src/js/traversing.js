@@ -1,4 +1,4 @@
-const grandparent = document.getElementById("grandparent-id")
+const grandparent = document.querySelector("grandparent")
 
 grandparent.style.backgroundColor = '#333'
 
