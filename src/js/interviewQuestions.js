@@ -143,14 +143,12 @@ console.log(reverseArray(arrayLoop1));
  ** Loops 
 * TODO: Write a function that will be used for palindrome */
 
-function isPalindrome1(words){
-    words = words.replace().toLowerCase(); 
-    let reverseWords = words.split('').reverse('').join('');
-    return words === reverseWords;
+function isPalindrome3(words){
+    words === words.replace().toLowerCase();
+    reverseWord = words.split('').reverse('').join('');
+    return words === reverseWord;
 }
-
-console.log(isPalindrome1("racecar"));
-
+console.log(isPalindrome3("this is palindrome 3" + 'racecar'));
 /**
  ** Loops 
 * TODO: Write a function in a for Loop that will be used for palindrome */
