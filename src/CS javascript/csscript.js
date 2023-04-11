@@ -9,16 +9,22 @@ console.log(typeof myNumber);
 let myScore;
 
 // Setup and change the game score
-init();
+init(1000);
 changeScore();
 
 // function to initialize the game score in the game
-function init(){
+function init(newScore){
+    myScore = newScore;
+    displayScore();
 }
 
 // function to change the score of the game
 function changeScore() {
     myScore = myScore + 100;
+    displayScore();
+}
+
+function displayScore(){
     console.log("Player score: " + myScore);
 }
 
