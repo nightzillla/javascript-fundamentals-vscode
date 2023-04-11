@@ -5,7 +5,7 @@ var myNumber = 5;
 console.log(myNumber);
 console.log(typeof myNumber); 
 
-// Create the game score
+// Create the game 
 let myScore;
 
 // Setup and change the game score
@@ -14,7 +14,6 @@ changeScore();
 
 // function to initialize the game score in the game
 function init(){
-    myScore = 1000;
 }
 
 // function to change the score of the game
