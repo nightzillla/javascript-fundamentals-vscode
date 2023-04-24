@@ -35,3 +35,7 @@ function displayScore(){
     console.log("Player score: " + myScore);
 }
 
+for (let i = 0; i <= 10; i++){
+    console.log(i)
+}
+
